@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+main{
+    height: 100vh;
+}
+
+#resultDisplay{
+    width: 100%;
+    height: 30%;
+    background-color: black;
+}
+
+#articleNumbers{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    background-color: aqua;
+    height: 70%;
+}
+
+.numbers{
+    text-align: center;
+    height: 100%;
+}
